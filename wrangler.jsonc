@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "one-shot-games",
+  "main": "./.output/server/index.mjs",
+  "compatibility_date": "2025-12-19",
+  "assets": {
+    "directory": "./.output/public/",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
