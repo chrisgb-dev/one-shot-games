@@ -34,4 +34,24 @@ export default defineNuxtConfig({
     ogImage: 'https://one-shot.games/images/osg-logo.png',
     twitterCard: 'summary_large_image'
   },
+  seo: {
+    meta: {
+      // Basic SEO
+      description: 'One-Shot Wonders is a casual tabletop gaming group based in Melbourne, running one-shot adventures for all skill levels.',
+      author: 'Gerald Lock',
+
+      applicationName: 'My App',
+
+      // Nuxt SEO Utils already sets the below tags for you
+      ogSiteName: 'One-Shot Wonders',
+      ogLocale: 'en_AU',
+      ogType: 'website',
+      ogUrl: 'https://one-shot-wonders.games',
+      ogTitle: 'One-Shot Wonders',
+
+      // Other Nuxt SEO modules handle these
+      ogImage: 'https://one-shot.games/images/osg-logo.png',
+      robots: 'index, follow',
+    }
+  },
 })
