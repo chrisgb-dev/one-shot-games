@@ -40,8 +40,6 @@ export default defineNuxtConfig({
       description: 'One-Shot Wonders is a casual tabletop gaming group based in Melbourne, running one-shot adventures for all skill levels.',
       author: 'Gerald Lock',
 
-      applicationName: 'My App',
-
       // Nuxt SEO Utils already sets the below tags for you
       ogSiteName: 'One-Shot Wonders',
       ogLocale: 'en_AU',
