@@ -15,7 +15,8 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxthub/core'
+    '@nuxthub/core',
+    'nuxt-seo-utils',
   ],
   vite: {
     plugins: [tailwindcss()],
